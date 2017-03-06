@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Fixed top navbar example for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/navbar-top-fixed.css" rel="stylesheet">
+</head>
+
+<body>
+
+<nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <img src="imagens/correctanswer.png" class="navbar-brand" width="50" height="50">
+    <a class="navbar-brand" href="index.html">RespostaCerta</a>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="index.html" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Problemas</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <a class="dropdown-item" href="cadastrarProblemaSelecaoDisciplina.html.html">Cadastrar</a>
+                    <a class="dropdown-item" href="#">Alterar</a>
+                    <a class="dropdown-item" href="#">Excluir</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">A Construir</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+    <h1>Excluir Problema - Código MAT39299</h1>
+    <h3>Disciplina: Matemática</h3>
+    <h3>Origem: Internet</h3>
+    <form action="sucesso.html">
+        <div class="form-group">
+            <label for="exampleTextarea">Descrição do problema:</label>
+            <textarea class="form-control" id="exampleTextarea" rows="3" readonly="readonly">O triplo de um número natural somado com o número quatro é igual ao quadrado do número 5. Calcule-o.</textarea>
+        </div>
+        <div class="form-group">
+            <label for="motivo">Informe o motivo:</label>
+            <textarea class="form-control" id="motivo" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Confirmar Exclusão</button>
+    </form>
+</div>
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="js/bootstrap.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug
+<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>-->
+</body>
+</html>
